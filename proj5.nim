@@ -20,6 +20,6 @@ block main:
         else:
           break inner
       break main
-    n += 1
+    n += 2
 
 echo($n)
