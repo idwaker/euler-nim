@@ -14,7 +14,7 @@ var n = 20
 block main:
   while true:
     block inner:
-      for j in 1..20:
+      for j in 2..20:
         if n mod j == 0:
           continue
         else:
