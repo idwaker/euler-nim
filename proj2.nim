@@ -22,7 +22,7 @@ iterator fib(): int =
     tmp = b
     b += a
     a = tmp
-    if int(b mod 2) == 0:
+    if b mod 2 == 0:
       yield b
 
 
